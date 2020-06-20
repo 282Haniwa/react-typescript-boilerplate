@@ -23,7 +23,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'import'],
-  'settings': {
+  settings: {
     'import/resolver': {
       'node': {
         'extensions': [
