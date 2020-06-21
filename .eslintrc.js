@@ -2,12 +2,12 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
+    "jest/globals": true,
   },
   extends: [
+    'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'airbnb',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:prettier/recommended',
@@ -22,7 +22,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'import'],
+  plugins: ['react', '@typescript-eslint', 'import', 'jest'],
   settings: {
     'import/resolver': {
       'node': {
