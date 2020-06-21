@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
-    "jest/globals": true,
+    'jest/globals': true,
   },
   extends: [
     'plugin:@typescript-eslint/recommended',
@@ -40,7 +40,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/order': ['error'],
     'import/extensions': ['error', 'never'],
-    "import/no-extraneous-dependencies": ["off"],
+    'import/no-extraneous-dependencies': ['off'],
     'prettier/prettier': [
       'error',
       {
